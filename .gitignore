@@ -46,3 +46,6 @@ logs/
 
 # Node dependencies
 node_modules/
+
+# App configs
+config.env
