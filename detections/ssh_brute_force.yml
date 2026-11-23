@@ -1,0 +1,16 @@
+title: SSH Brute Force Attempt
+id: 8f47a8d2-9c12-4b71-a432-5c17dfe00201
+status: experimental
+description: Detects repeated failed SSH authentication attempts.
+author: Kente Logistics Security Team
+date: 2026/11/23
+logsource:
+    product: linux
+    service: sshd
+detection:
+    selection:
+        message|contains: "Failed password"
+    condition: selection
+falsepositives:
+    - Legitimate users entering incorrect passwords
+level: medium
