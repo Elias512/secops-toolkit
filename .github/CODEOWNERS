@@ -1,0 +1,15 @@
+# Default owner for the entire repository
+* @Elias512
+
+# Detection rules
+/detections/ @Elias512
+
+# Incident response runbooks
+/runbooks/ @Elias512
+
+# Tools and scripts
+/tools/ @Elias512
+
+# Project documentation
+/README.md @Elias512
+
