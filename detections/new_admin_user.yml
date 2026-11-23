@@ -1,0 +1,22 @@
+title: New Administrator Account Created
+id: 4c7d9f12-6b32-4a81-9e21-8f5d3c2b1a60
+status: experimental
+description: Detects the creation of new administrator accounts.
+author: Kente Logistics Security Team
+date: 2026/11/23
+
+logsource:
+    product: linux
+    category: account_management
+
+detection:
+    selection:
+        message|contains:
+            - "useradd"
+            - "usermod -aG sudo"
+    condition: selection
+
+falsepositives:
+    - Legitimate administrator account provisioning
+
+level: medium
