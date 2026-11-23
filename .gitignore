@@ -1,0 +1,48 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Generated logs
+*.log
+logs/
+
+# Allow synthetic sample logs
+!samples/**/*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Node dependencies
+node_modules/
