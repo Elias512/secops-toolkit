@@ -28,7 +28,7 @@ When a suspicious email is reported:
 4. Do not click suspicious links or open unexpected attachments.
 5. Preserve the suspicious email for investigation.
 
-**Initial containment:** Instruct the affected employee not to interact further with the suspicious email.
+Initial containment: Immediately disable the affected user's account and reset their credentials if compromise is suspected.
 
 ## 5. Investigation
 
