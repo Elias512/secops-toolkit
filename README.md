@@ -31,3 +31,8 @@ Under development.
 
 All logs and security scenarios in this repository are synthetic
 and intended for educational purposes.
+
+## Detection Engineering
+
+This repository contains experimental security detection rules
+and incident response runbooks developed for Kente Logistics.
